@@ -730,12 +730,11 @@ Los resultados están condicionados por los parámetros de entrada, la lógica d
 | [Documento del caso](Produccion%20y%20finanzas/Documento_del_caso.pdf) | Lácteos Fúquene (operación, estados financieros, hallazgos), entorno del sector, normas que condicionan el proyecto, IntegraMotion (constitución, normas, cómo y cuánto cobra), matriz de selección de la línea, alcance de la oferta y BOM. |
 | [EDT del proceso productivo](Produccion%20y%20finanzas/EDT_proceso_productivo.pdf) | Desglose de las operaciones de las tres líneas, nivel de automatización actual y propuesto para la quesería, recursos y cuellos de botella. |
 | [VSM de las líneas](Produccion%20y%20finanzas/VSM_lineas.pdf) | Mapas de flujo de valor del campesino, los hilados, el yogur y el UHT; recursos compartidos, OEE de los equipos de fin de línea e indicadores por familia. |
-| [Modelo financiero de la quesería](Produccion%20y%20finanzas/Modelo_financiero_queseria.xlsx) | Supuestos, BOM del proyecto enlazado a la inversión, beneficios con su respaldo, flujo de caja de 2027 a 2037, crédito, escenarios, análisis de riesgo, compuertas, efecto en la empresa y costo de la ingeniería de IntegraMotion por capas, por contrato y por paquete de la EDT, y una hoja Resumen con los cuadros que se presentan. |
-| [Propuesta económica](Produccion%20y%20finanzas/Propuesta_economica.pdf) | Oferta de IntegraMotion a Lácteos Fúquene: cifras clave y decisiones que se piden, alcance y contratos, propuesta de valor por medida, tarifas por rol con el conocimiento que las respalda, composición del precio y precio por paquete de la EDT, forma de pago y control por valor ganado, presupuesto, flujo de caja, tablero de indicadores, financiación, escenarios y compuertas, sostenimiento y condiciones comerciales. |
+| [Modelo financiero de la quesería](Produccion%20y%20finanzas/Modelo_financiero_queseria.xlsx) | Supuestos, BOM del proyecto enlazado a la inversión, beneficios con su respaldo, flujo de caja de 2027 a 2037, crédito, escenarios, análisis de riesgo, compuertas con árbol de decisión, rentabilidad que exige el dueño (CAPM más primas por tamaño y riesgo propio), efecto en la empresa y costo de la ingeniería de IntegraMotion por capas, por contrato y por paquete de la EDT, y una hoja Resumen con los cuadros que se presentan. |
+| [Propuesta económica](Produccion%20y%20finanzas/Propuesta_economica.pdf) | Oferta de IntegraMotion a Lácteos Fúquene: cifras clave y decisiones que se piden, alcance y contratos, propuesta de valor por medida, oportunidades con la condición que exige cada una y cómo se comprueba, tarifas por rol con el conocimiento que las respalda, composición del precio y precio por paquete de la EDT, forma de pago y control por valor ganado, presupuesto, flujo de caja, tablero de indicadores con la relación beneficio/costo, financiación y costo de capital, escenarios, decisión bajo riesgo y compuertas, sostenimiento y condiciones comerciales. |
 | [Minuta del contrato](Produccion%20y%20finanzas/Minuta_contrato_IntegraMotion.pdf) | Minuta académica del contrato principal y sus dos otrosíes, con sus cuatro anexos: actividades, horas y criterios de aceptación medibles; tarifas por rol; cronograma, curva S e hitos de pago; y quién hace cada trabajo. Cada entregable se acepta solo contra su criterio, y las compuertas se miden con cifras. |
 | [Medidas organizacionales y uso del MES](Produccion%20y%20finanzas/Medidas_organizacionales.pdf) | Hallazgos con causa organizacional, medidas escogidas con una matriz de criterios, roles, quién responde por cada función del MES, procedimientos, reuniones fijas, responsables de los datos, transición del personal, formación e indicadores del uso del MES. |
 | [Casos de decisión en la pirámide](Produccion%20y%20finanzas/Casos_piramide.pdf) | Veintisiete situaciones de la quesería recorridas del PLC a la gerencia según ISA-95: ocho flujos normales y diecinueve excepciones; qué decide cada nivel, en qué plazo, qué dato entrega al siguiente y qué valor protege; mensajes entre niveles, frontera ERP–MES y lo que los casos le piden al ERP. |
-| [Levantamiento y diseño del ERP](Produccion%20y%20finanzas/Diseno_ERP.pdf) | Paquete 5.2 de la EDT: cómo se hizo el levantamiento, procesos de hoy y con el diseño, 28 requisitos funcionales con criterio de aceptación, requisitos no funcionales, datos maestros, configuración en SAP Business One, mensajes con el MES, roles, pruebas y plan del ERP de demostración. |
 | [P&ID de la planta y de la quesería](Produccion%20y%20finanzas/PID_planta_y_queseria.pdf) | Cuatro planos A3 según ANSI/ISA-5.1 (leyenda, planta completa y dos hojas de la quesería) con los tipos de proceso de cada unidad (continuo, por lote, discreto, inspección) y las transferencias ISA-88 entre unidades; memoria con unidades, transferencias, lazos, enclavamientos y lista de instrumentos. |
 | [P&ID inteligente de las tinas en Plant 3D](Produccion%20y%20finanzas/PID_queseria_Plant3D.pdf) | Hoja P&ID-002 dibujada en AutoCAD Plant 3D con simbología PIP (ISA-5.1): tinas TQ-301/302/303, bombas, caudalímetros, válvulas de carga y de fondo e instrumentos con etiqueta en la base de datos del proyecto, de donde salen las listas de equipos, instrumentos y válvulas. |
 | [VSM antes y después de la automatización](Produccion%20y%20finanzas/VSM_antes_y_despues.pdf) | Mapas de flujo de valor del campesino y de los hilados en el estado actual y en el estado futuro, con la misma demanda; tabla de indicadores antes y después (tiempos, carga del cuello de botella, OEE de la termoformadora, horas extra, operarios, sobrepeso y merma), capacidad que se libera y cómo se validan los valores proyectados. |
@@ -769,7 +768,7 @@ IntegraMotion contrata el trabajo en tres partes. Lo que paga Lácteos Fúquene 
 
 Por fase, la ingeniería conceptual (diagnóstico, VSM, línea base, arquitectura y modelo financiero) es el 11 % del costo; la básica (recetas ISA-88, hojas de datos, especificación funcional, BOM y cotizaciones), el 13 %; la de detalle (programas, planos de lazo, interfaces, pruebas y gemelo), el 31 %; la implementación en planta, el 19 %, y la gestión del proyecto, el 15 %. El resto son viajes e instrumentos de prueba.
 
-Cada otrosí se firma solo si se supera la compuerta anterior, y cada compuerta se mide con cifras. Si la primera no se supera, la empresa paga el contrato principal, cuya ingeniería ya recibió, no compra equipos y pierde unos 38 millones con los ahorros conservadores de la etapa 0; comprar la etapa 1 sin esa información costaría 296. Si la segunda no se supera, la etapa 1 vale 371 millones por sí sola, y un prepago de unos 22 millones en 2027 mantiene su cobertura de la deuda en 1,2. IntegraMotion hace la ingeniería, la integración y la gerencia, y no vende equipos ni hace montajes: la instalación eléctrica, hidráulica y mecánica, los planos de detalle de obra y de reubicación de equipos, el tablero, la parametrización del ERP y la calibración acreditada los hacen terceros que contrata Lácteos Fúquene, con su costo dentro de la inversión, e IntegraMotion los especifica y supervisa. La inversión en equipos sale del BOM del proyecto: 53 ítems con tag, tomados de la instrumentación de la sección 7, del modelo físico ISA-88 y de la arquitectura ISA-95 de la sección 8, cada uno con precio, origen, instalación, paquete de la EDT y madurez del precio.
+Cada otrosí se firma solo si se supera la compuerta anterior, y cada compuerta se mide con cifras. Si la primera no se supera, la empresa paga el contrato principal, cuya ingeniería ya recibió, no compra equipos y pierde unos 38 millones con los ahorros conservadores de la etapa 0; comprar la etapa 1 sin esa información costaría 296. Con un árbol de decisión y 70 % de probabilidad de superar cada compuerta, las compuertas bajan el peor resultado de −256 a −38 millones con un valor esperado parecido (470 frente a 500). Si la segunda no se supera, la etapa 1 vale 371 millones por sí sola, y un prepago de unos 22 millones en 2027 mantiene su cobertura de la deuda en 1,2. IntegraMotion hace la ingeniería, la integración y la gerencia, y no vende equipos ni hace montajes: la instalación eléctrica, hidráulica y mecánica, los planos de detalle de obra y de reubicación de equipos, el tablero, la parametrización del ERP y la calibración acreditada los hacen terceros que contrata Lácteos Fúquene, con su costo dentro de la inversión, e IntegraMotion los especifica y supervisa. La inversión en equipos sale del BOM del proyecto: 53 ítems con tag, tomados de la instrumentación de la sección 7, del modelo físico ISA-88 y de la arquitectura ISA-95 de la sección 8, cada uno con precio, origen, instalación, paquete de la EDT y madurez del precio.
 
 La implementación va en 2027 y 2028 y el proyecto se evalúa hasta 2037. Cifras en millones de pesos constantes de 2026:
 
@@ -1451,82 +1450,3 @@ sequenceDiagram
 | 10.0 Mantenimiento | Costo de repuestos y órdenes, tiempo medio entre fallas para la gerencia | Órdenes preventivas y correctivas, contador de horas, registro de fallas | F6, E1, E2, E3 |
 | Ingeniería y desarrollo | Lista de materiales del producto | Receta maestra con su versión, aprobada por calidad | F1, E8 |
 | Gestión humana (fuera del modelo) | Nómina, novedades y matriz de competencias | Asignación por puesto y horas por lote | F2, E12 |
-
-## 12.4. Diseño del ERP
-
-Levantamiento y diseño funcional del ERP de la quesería (paquete 5.2 de la EDT). Lácteos Fúquene conserva SAP Business One, que hoy usa solo para facturar e inventariar; el diseño activa la producción, los lotes, el MRP, las compras con aprobación y los costos por centro, y lo conecta con el MES por un adaptador en Node-RED, a través del firewall entre la red corporativa y la de planta. El detalle está en el documento [Levantamiento y diseño del ERP](Produccion%20y%20finanzas/Diseno_ERP.pdf).
-
-```mermaid
-flowchart TB
-    subgraph CORP["Red corporativa"]
-        ERP["ERP · SAP Business One<br/>ventas, compras, inventario por lote, producción, costos"]
-    end
-    FW{{"Firewall entre zonas · IEC 62443"}}
-    subgraph PLANTA["Red de planta"]
-        NR["Adaptador de integración · Node-RED<br/>cola, reintento y registro de errores"]
-        MES["MES de la quesería · Ignition con PostgreSQL<br/>lotes, recetas, calidad, paros"]
-        SC["SCADA e historiador · Ignition"]
-        PLC["PLC y equipos"]
-    end
-    ERP <-->|"Service Layer · REST"| FW
-    FW <--> NR
-    NR <-->|"mensajes JSON por lote"| MES
-    MES <--> SC
-    SC <-->|"OPC UA"| PLC
-```
-
-| Proceso | Hoy | Con el diseño |
-|---|---|---|
-| Pedido a cobro | Ventas promete sin saber qué máquinas fallan; el 1 % de las ventas de quesos sale tarde o incompleto y se coloca con 30 % de descuento (H9). Factura en SAP sin lotes. | Pedido con fecha prometida contra inventario liberado y capacidad publicada por el MES; remisión con lotes; contrato de la cadena con pronto pago. |
-| Plan a orden | Plan semanal en Excel; el del día se arma con lo que se sabe en la mañana. | Plan semanal con MRP en el ERP; órdenes por queso y fecha que bajan al MES y vuelven confirmadas o ajustadas. |
-| Leche a pago | Recepción en planillas; liquidación a productores con análisis por ruta en hojas sueltas. | Cada ruta entra como partida con sus análisis desde el MES; liquidación por calidad reproducible. |
-| Lote a costo | Cada queso se costea con el promedio de la planta; la mezcla de leche se decide por costumbre (H12). Producción y consumos en papel (H6). | Consumos, producción, horas y estado de calidad de cada lote suben del MES; costo real por lote y por queso al día siguiente. |
-| Compra de insumos y repuestos | El repuesto se pide cuando la máquina ya paró; la solicitud va por correo. | La orden de mantenimiento o la reserva fallida del MES crea la solicitud de compra; aprobación por monto; recepción con liberación de calidad. |
-| Calidad, bloqueo y retiro | La liberación se registra en papel; no hay trazabilidad de lote a proveedor (H6). | El MES bloquea o libera el lote en el ERP; la consulta de trazabilidad da proveedores y clientes de un lote en minutos. |
-| Cierre de mes | Cierre con datos de papel pasados a Excel; hora y media diaria de digitación (H9). | Cierre conciliado con el MES; merma por causa; seguimiento de los beneficios del proyecto. |
-
-```mermaid
-flowchart TB
-    subgraph A["ERP · del pedido a la orden"]
-        direction LR
-        P1["Pedido del cliente"] --> P2{"¿Inventario liberado<br/>o capacidad?"}
-        P2 -->|sí| P3["Fecha prometida"]
-        P2 -->|no| P4["Otra fecha<br/>o sustituto"]
-        P3 --> P5["Plan semanal<br/>con MRP"]
-        P5 --> P6["Orden de producción<br/>OP-Q2-014"]
-    end
-    subgraph B["MES · de la orden al lote"]
-        direction LR
-        M1["Programa del día<br/>y confirmación"] --> M2["Despacho del lote<br/>B-Q2-031"]
-        M2 --> M3["Ejecución y cierre<br/>del lote"]
-        M3 --> M4{"Calidad:<br/>¿cumple?"}
-        M4 -->|retiene| Q["Bloqueo<br/>del lote"]
-    end
-    subgraph C["ERP · del lote al costo y al cliente"]
-        direction LR
-        P9["Consumos y producción<br/>del lote"] --> P10["Costo real<br/>del lote"]
-        P11["Lote liberado"] --> P12["Remisión con lote<br/>y factura"]
-    end
-    A --> B
-    B --> C
-```
-
-El diseño tiene 28 requisitos funcionales (21 obligatorios), cada uno con su origen en un caso de la pirámide o un hallazgo y un criterio de aceptación medible, y 8 no funcionales (seguridad por zonas según IEC 62443, cola y reintento si cae el ERP, mensajes sin duplicados, tiempos y auditoría). Los maestros usan los mismos identificadores del MES (OP-Q1-001, B-Q1-001, RM-Q1-v3, TQ-301). Estos son los mensajes que cruzan entre el MES y el ERP:
-
-| Mensaje | Sentido | Verbo ISA-95 | Objeto en SAP Business One |
-|---|---|---|---|
-| Definición del producto | ERP → MES | PROCESS | ProductTrees |
-| Personal disponible | ERP → MES | SYNC | -- (gestión humana) |
-| Orden de producción | ERP → MES | PROCESS | ProductionOrders |
-| Confirmación de órdenes | MES → ERP | ACKNOWLEDGE | ProductionOrders (estado) |
-| Capacidad disponible | MES → ERP | SYNC | Recursos (campo de disponibilidad) |
-| Reserva de materiales | MES ↔ ERP | GET y RESPOND | Disponibilidad por lote |
-| Partida de leche | MES → ERP | PROCESS | PurchaseDeliveryNotes |
-| Consumos y producción | MES → ERP | PROCESS | InventoryGenExits e InventoryGenEntries |
-| Resultado y liberación | Calidad → MES → ERP | SYNC | BatchNumberDetails (estado) |
-| Bloqueo de inventario | MES → ERP | CHANGE | BatchNumberDetails (estado) |
-| Consulta de trazabilidad | ERP → MES | GET y SHOW | -- |
-| Solicitud de compra | MES → ERP | PROCESS | PurchaseRequests |
-| Horas por lote | MES → ERP | PROCESS | Campo de usuario en la orden |
-
-Para mostrarlo funcionando se monta un ERP de demostración en Odoo Community con Node-RED, que repite el mismo diseño (maestros, documentos y mensajes) y recorre seis casos de la pirámide: F3 (programa del día desde las órdenes del erp), F4 (despacho, ejecución y reporte del lote), F7 (recepción de leche y despacho), E1 (falla de una tina), E11 (retiro de producto), F6 (preventivo con repuesto).
